@@ -26,3 +26,7 @@ spring:
     username: root
     password: course
     type: com.zaxxer.hikari.HikariDataSource
+
+jwt:
+  config:
+    type: signed

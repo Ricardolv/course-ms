@@ -26,6 +26,11 @@
             <artifactId>core</artifactId>
             <version>${course-core.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.richard.courses-microservices</groupId>
+            <artifactId>token</artifactId>
+            <version>${course-token.version}</version>
+        </dependency>
 
     </dependencies>
 

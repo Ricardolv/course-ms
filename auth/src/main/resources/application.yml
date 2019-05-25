@@ -27,8 +27,8 @@ spring:
     password: course
     type: com.zaxxer.hikari.HikariDataSource
 
-  jwt:
-    config:
-      type: signed
+jwt:
+  config:
+    type: signed
 
 
