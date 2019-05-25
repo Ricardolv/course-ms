@@ -7,7 +7,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8081/eureka/
-    fetch-registry: true
     register-with-eureka: true
 
 spring:
@@ -23,7 +22,7 @@ spring:
   jmx:
     enabled: false
   datasource:
-    url: jdbc:mysql://192.168.99.100:3306/course?allowPublicKeyRetrieval=true&sslMode=DISABLED
+    url: jdbc:mysql://192.168.99.100:3306/coursedb?allowPublicKeyRetrieval=true&sslMode=DISABLED
     username: root
     password: course
     type: com.zaxxer.hikari.HikariDataSource
