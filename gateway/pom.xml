@@ -17,12 +17,25 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<course-core.version>1.0-SNAPSHOT</course-core.version>
+		<course-token.version>1.0-SNAPSHOT</course-token.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.richard.courses-microservices</groupId>
+			<artifactId>core</artifactId>
+			<version>${course-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.richard.courses-microservices</groupId>
+			<artifactId>token</artifactId>
+			<version>${course-token.version}</version>
 		</dependency>
 	</dependencies>
 
